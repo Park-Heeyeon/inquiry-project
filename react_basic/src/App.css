@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.title-box {
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.title-box i {
+  margin-right: 5px;
+}
+
+.loading-bar {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-page {
+  height: 100vh;
+  text-align: center;
+}
+.login-page .form-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+}
+.login-page form {
+  width: 100%;
+  flex-flow: row;
+}
+
+.inquiry-page .nav-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #2b80ff;
+}
+
+.inquiry-page .nav-box li {
+  list-style: none;
+  padding: 15px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.inquiry-page .nav-box li.active {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.inquiry-page .inquiry-form {
+  width: 100%;
+  padding: 20px;
+}
+
+.inquiry-page .inquiry-form .inquiry-desc {
+  font-size: 18px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.inquiry-page .inquiry-form .fnq-shortcut {
+  display: block;
+  margin: 10px 0 20px 0;
+  font-size: 14px;
+  color: #303030;
+}
+.inquiry-page .inquiry-form .fnq-shortcut .fa-circle-question {
+  margin-right: 5px;
+}
+.inquiry-page .inquiry-form .fnq-shortcut .fa-chevron-right {
+  margin-left: 5px;
+}
+
+.inquiry-page .inquiry-form .dropdown {
+  display: flex;
+  width: 100%;
+}
+.inquiry-page .inquiry-form .dropdown .main-category {
+  width: 30%;
+}
+.inquiry-page .inquiry-form .dropdown .sub-category {
+  width: 70%;
+}
+
+.inquiry-page .inquiry-form .dropdown button {
+  padding: 5px 0;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+.inquiry-page .inquiry-form .dropdown button.disabled::after {
+  border: 0;
+}
+
+.inquiry-page .inquiry-form .dropdown .dropdown-menu {
+  width: inherit;
+  min-width: inherit;
+  font-size: 14px;
+}
+.inquiry-page .inquiry-form input,
+.inquiry-page .inquiry-form textarea {
+  font-size: 14px;
+}
+.inquiry-page .inquiry-form .btn-box {
+  margin-top: 20px;
+}
+.inquiry-page .inquiry-form .btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* 문의내역 스타일 */
+.inquiry-list .non-list {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.inquiry-list .list-group .list-group-item {
+  position: relative;
+}
+.inquiry-list .list-group .list-group-item .badge {
+  margin-right: 5px;
+}
+.inquiry-list .list-group .list-group-item .inquiry-content {
+  margin: 10px 0;
+  color: #000;
+  font-weight: 500;
+}
+.inquiry-list .list-group .list-group-item .inquiry-content .mb-1 {
+  margin-right: 5px;
+  font-weight: 600;
+}
+.inquiry-list .list-group .list-group-item i {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+/* 문의내역 상세페이지 스타일 */
+.inquiry-detail .card {
+  font-size: 17px;
+  font-weight: 600;
+}
+.inquiry-detail .card i {
+  margin-right: 10px;
+}
+.inquiry-detail .card .card-header {
+  padding: 15px;
+  background: #2b80ff;
+  color: #fff;
+}
+
+.inquiry-detail .card-body {
+  color: #000;
+}
+.inquiry-detail .card-body .date-box {
+  margin-top: 10px;
+  color: #565656;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.inquiry-detail .btn-box {
+  margin-top: 20px;
+  text-align: center;
+}
+.inquiry-detail .btn {
+  padding: 5px 30px;
+  border: 1px solid #8a8a8a;
+  font-size: 14px;
+}
+
+.ReactModal__Content .btn-box {
+  margin-top: 15px;
+}
+.btn-box .cancel-btn {
+  margin-left: 5px;
+}
+
+.err-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+}
